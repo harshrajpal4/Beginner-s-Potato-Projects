@@ -1,0 +1,46 @@
+print ("This Is Programmed By Harsh Rajpal")
+#addition
+print("The Addition Calculator Program")
+a=int(input("enter the first number\n"))
+b=int(input("enter the second number\n"))
+sum=a+b
+print("the sum of two numbers is "+str(sum))
+
+#substraction
+print("The Substraction Calculator Program")
+a=int(input("enter the first number\n"))
+b=int(input("enter the second number\n"))
+subs=a-b
+print("the substraction of two numbers is "+str(subs))
+
+#simple interest
+print("The Simple Interest Calculator Program")
+p=int(input("enter principle amount\n"))
+r=int(input("enter interest amount\n"))
+t=int(input("enter time period\n"))
+si=p*r*t/100
+print("the simple interest is "+str(si))
+
+#compound intrest
+print ("The Compound Interest Calculator Program")
+p=int(input("enter principle amount\n"))
+r=int(input("enter interest amount\n"))
+n=int(input("number of times interest applied per time period\n"))
+t=int(input("number of time elapsed\n"))
+ci=p*(1+r/n)*n*t
+print("The Compound Interest is "+str(ci))
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+n=int(input("Input a number to compute the factiorial : "))
+print(factorial(n))
+
+# Ending message
+print("Thanks for using this program")
+
+print ("This Is Programmed By Harsh Rajpal")
+#ending ubg
+print("The program has been ended")
